@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+<div id="box">
+<form name="frm">
+	<input id="line" name="result" defaultvalue="0" size="5">
+	<br>
+	<input id="red" class="buttons " type="button" name="Clear" value="C" onclick="runclear()">
+	<input id="blank" class="buttons " type="button" name="Clear" value="C" onclick="runclear()">
+	<input class="buttons " type="button" name="/" value="/" onclick="rundiv()">
+	<input id="times" class="buttons " type="button" name="*" value="*" onclick="runtimes()">
+	<br>
+	<input class="buttons " type="button" name="7" value="7" onclick="run7()">
+	<input class="buttons " type="button" name="8" value="8" onclick="run8()">
+	<input class="buttons " type="button" name="9" value="9" onclick="run9()">
+	<input class="buttons " type="button" name="+" value="+" onclick="runplus()">
+	<br>
+	<input class="buttons " type="button" name="4" value="4" onclick="run4()">
+	<input class="buttons " type="button" name="5" value="5" onclick="run5()">
+	<input class="buttons " type="button" name="6" value="6" onclick="run6()">
+	<input class="buttons " type="button" name="-" value="-" onclick="runminus()">
+	<br>
+	<input class="buttons " type="button" name="1" value="1" onclick="run1()">
+	<input class="buttons " type="button" name="2" value="2" onclick="run2()">
+	<input class="buttons " type="button" name="3" value="3" onclick="run3()">
+	<input id="tall" class="buttons " type="button" name="=" value="=" onclick="runequal()">
+	<br>
+	<input id="wide" class="buttons " type="button" name="0" value="0" onclick="run0()">
+	<input class="buttons " type="button" name="dec" value="." onclick="rundec()">	
+</form>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
